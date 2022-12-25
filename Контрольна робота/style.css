@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Unbounded:wght@300&display=swap');
+#box1 {
+    background-color: rgb(196, 153, 236);
+}
+#box2 {
+    background-color: rgb(240, 156, 222);
+}
+#box3 {
+    background-color: rgb(128, 224, 228);
+}
+#box4{
+    background-color: rgb(161, 154, 154);
+}
+#head1 {
+    background-color: rgb(54, 10, 95);   
+}
+#head2 {
+    background-color: rgb(153, 22, 44)
+}
+#head3 {
+    background-color:rgb(15, 85, 112);
+}
+#head4 {
+    background-color: black;
+}
+h4{
+    color: white;
+    text-align: center;
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    font-size: 120%;
+    font-family: 'Inter';
+}
+h1 h2 h3{
+    font-family: 'Poppins';
+}
+p th td li{
+    font-family: 'Unbounded';
+}
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    width: 200px;
+}
+th{
+    text-align: center;
+}
+table{
+    border-spacing: 0;
+}
+article {
+        display: flex;
+        flex-wrap: wrap;
+}
+p {
+    
+}
+/* XL devices */ 
+@media (min-width: 1200px) { 
+    .col-xl-3{
+        width: 25%;
+    }
+}
+/* Large devices */  
+@media (min-width: 993px) and (max-width: 1199px) { 
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-12{
+        width: 100%; 
+    }
+}
+/* Medium devices */  
+@media (min-width: 769px) and (max-width: 992px) { 
+    .col-md-6{
+        width: 50%;
+    }
+
+}
+/* Small devices */  
+@media (max-width: 768px) { 
+    .col-sm-12{
+        width: 100%;
+    }
+
+}
