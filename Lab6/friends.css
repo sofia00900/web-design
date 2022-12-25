@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+a {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+#cap {
+    text-align: center;
+    background-color: green;
+    color: black;
+    font-weight: 600;
+}
+.ltd {
+    text-align: right;
+}
+
+
+.data > td{
+    background-color: gray;
+    color: white;
+}
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+}
+/* Large devices */
+@media (min-width: 992px) { 
+    th{
+      font-size: 130%;
+    }
+    td{
+      font-size: 120%;
+    }
+  }
+  /* Medium devices */
+  @media (min-width: 768px) and (max-width: 991px) {
+    th{
+      font-size: 120%;
+    }
+    td{
+      font-size: 110%;
+    }
+  }
+  /* Small devices */
+  @media (max-width: 767px){
+    th{
+      font-size: 110%;
+    }
+
+  }

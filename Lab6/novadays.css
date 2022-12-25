@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+a {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+ul > li > ul > li:nth-child(odd) {
+    background-color: gray;
+    color: white;
+}
+ul > li > ul > li:nth-child(even) {
+    background-color: white;
+    color: black;
+    list-style-type: none;
+}
+ol > li > ol > li:nth-child(3) {
+    cursor: pointer;
+}
+ol > li > ol > li:nth-child(5) {
+    cursor: pointer;
+}
+ol > li > ol > li:nth-child(4) {
+    background-color: blueviolet;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 992px) { 
+    .col-lg-6 {
+      width: 50%;
+      }
+    }
+  @media (max-width: 991px) { 
+    .col-md-12 {
+      width: 100%;
+      }
+    }
